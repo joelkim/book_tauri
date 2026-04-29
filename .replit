@@ -1,1 +1,1 @@
-modules = ["nodejs-22"]
+modules = ["web", "bash", "python-3.14", "nodejs-22"]

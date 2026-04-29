@@ -1,0 +1,31 @@
+project:
+  type: website
+  render:
+    - "*.ipynb"
+
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    css: styles.css
+    page-layout: full
+    code-block-bg: true
+    code-overflow: wrap
+    code-line-numbers: false
+    monofont: D2Coding
+    language:
+      crossref-tbl-title: "표"
+    mermaid:
+      theme: neutral
+
+bibliography: references.bib
+reference-location: margin
+
+website:
+  title: "Tauri Book"
+  site-url: https://tauribook.madebykim.kr/
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - "index.ipynb"
