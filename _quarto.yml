@@ -17,6 +17,8 @@ format:
       crossref-tbl-title: "표"
     mermaid:
       theme: neutral
+    filters:
+      - clean-code.lua
 
 bibliography: references.bib
 reference-location: margin
